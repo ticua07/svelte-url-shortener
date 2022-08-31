@@ -12,7 +12,7 @@ services:
     command: redis-server --save 60 1 --loglevel warning --requirepass ${REDIS_PASSWORD}
 
     environment:
-      - REDIS_PASSWORD=ticuaisroot
+      - REDIS_PASSWORD=password
 
 volumes:
   data:
